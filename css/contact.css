@@ -1,0 +1,156 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/* header-main */
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+    border-bottom: 1px solid #DADADA;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+}
+
+.main-menu-link {
+    font-weight: 500;
+    margin: 16px;
+}
+
+.btn-primary {
+    padding: 12px 65.5px;
+    border: 1px solid #0099FF;
+    color: #FFFFFF;
+    background: #0099FF;
+    border-radius: 4px;
+}
+
+/* project */
+.project-container {
+    height: 558px;
+    width: 1065px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #C2BDBD;
+}
+
+.project-main {
+
+    padding: 40px 102px 0 96px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+}
+
+.project-main-left-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42.56px
+}
+
+.project-main-left-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.96px;
+}
+
+.project-main-left-info {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px 0 0 0;
+    gap: 20px;
+}
+
+
+.icon {
+    padding: 140px 0 0 0;
+    margin-right: 40px;
+}
+
+
+.project-main-right-title {
+    display: block;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.text-checked {
+    margin-right: 15px;
+}
+
+input {
+    border: none;
+}
+
+.project-main-right-info {
+    border-bottom: 1px solid #505050;
+}
+
+.sub {
+    padding-top: 80px;
+}
+
+/* ========footer======= */
+footer {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: rgba(0, 153, 255, 0.04);
+}
+
+footer strong {
+    font-size: 20px;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 120px;
+}
+
+p {
+    line-height: 28.8px;
+}
+
+.footer-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-center-colm ul li {
+    list-style: none;
+}
+
+.footer-menu {
+    line-height: 46px;
+    padding: 0;
+}
+
+.enter {
+    height: 54px;
+    width: 338px;
+    margin: 0 0 30px 0;
+    background: #333333;
+    color: #999999;
+}
